@@ -1,16 +1,30 @@
 # IPL 2023 Data Analysis
 
-This project involves exploring IPL 2023 player and team performance using Pandas and Seaborn.
+## Project Overview
+Analysis of IPL 2023 match data to uncover insights about player performances, team stats, and match outcomes.
 
-## 📌 Highlights
-- Match-wise player performance analysis
-- Visualization of top batsmen/bowlers
-- Insights on win margins and toss decisions
+## Dataset
+- IPL 2023 match data CSV file (included in `data/ipl_2023.csv`).
 
-## 🧰 Libraries
+## Technologies Used
+- Python
 - Pandas
-- Seaborn
-- Matplotlib
+- Matplotlib & Seaborn
+- Jupyter Notebook
 
-## 🧪 Run Notebook
-Open `notebooks/ipl_analysis.ipynb` in Jupyter Notebook.
+## How to Run
+1. Clone the repo
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run notebooks:
+
+- data_cleaning.ipynb
+- ipl_visualization.ipynb
+
+## Sample Output
+Example: Top 5 run-scorers visualization
+
+## Contact
+GitHub: om2904
